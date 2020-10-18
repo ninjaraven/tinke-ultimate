@@ -5,13 +5,13 @@
 <a href="http://www.gnu.org/copyleft/gpl.html"><img alt="license" src="https://img.shields.io/badge/license-GPL%20V3-blue.svg?style=flat" /></a>
 </p>
 
-> Tinke is a program to see, convert, and edit the **files of NDS games**. You can see a lot of format files like images, text, sounds, fonts and textures. Furthermore it works with **plugins** made in NET Framework languages (C# and VB.NET) so it's so easy to support new formats.
+> Tinke is a program to see, convert, and edit the **files of NDS games**. You can edit a lot of file formats, like images, text, sounds, fonts and textures. Furthermore it works with **plugins** made in NET Framework languages (C# and VB.NET) so it's so easy to support new formats.
 
 To run the program you must have installed **[.NET Framework 4.5](https://www.microsoft.com/es-es/download/details.aspx?id=30653)** or **[mono](http://www.mono-project.com/download)**. In the case of *mono* on *Linux*, make sure you have installed the package **mono-locale-extras** too. For Mac, you need *mono* and *pkg-config* installed and configured, you'll use *mono32* to exec Tinke.
 
 Thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
 
-**Tinke is discontinued and not longer supported. Will provide a new solution in the long term.**
+**Tinke is now continued by TBNSMB and a few others collaborating to provide an updated version of tinke, which was discontinued by the original author, pleonex.**
 
 # Features
 
@@ -40,7 +40,7 @@ Thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
  * NTFP => NiTro File Palette (palette)
  * RAW => Raw image (tiles)
  * MAP => Raw map info (map)
- * Common formats => PNG, JPG, TGA
+ * Common formats => PNG, JPG, TGA, BMP
 
 ## Textures
  * BTX0 (NSBTX)
@@ -56,8 +56,8 @@ Thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
 
 ## Text
  * Sound definition => SADL, XSADL, SARC, SBDL, SMAP.
- * BMG => Pack text file
- * Common formats => TXT, XML, INI, H, BAT, C, MAKEFILE, LUA, CSV, BUILDTIME
+ * BMG => Nintendo packed text file
+ * Common formats => TXT, XML, INI, H, BAT, C, MAKEFILE, LUA, LUA.BAK, CSV, BUILDTIME, HTML, CSS, JS, NAIX, DTD, BSF, NBSD
 
 ## Compression
   Thanks to DSDEcmp library [DSDecmp](http://code.google.com/p/dsdecmp) (credits to *barubary*)
@@ -67,7 +67,7 @@ Thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
  * RLE     (id = 0x30)
 
 ## Pack
- * NARC o ARC => Nintendo ARChives
+ * NARC and ARC => Nintendo ARChives
  * Utility.bin => Wifi data files
 
 # Specific plugin for games
@@ -75,10 +75,10 @@ Thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
  * Itsu Demo Doko Demo Dekiru Igo (AIIJ)
  * Blood of Bahamut (CYJJ)
  * Dragon Ball Kai Ultimate Butouden (TDBJ)
- * Ace Attorney Investigation Miles Edgeworth (C32P, C32J)
+ * Ace Attorney Investigations Miles Edgeworth (C32P, C32J)
  * Gyakuten Kenji 2 (BXOJ)
  * Kirby Squeak Squad (AKWE)
- * Last Window The secrete of Cape West (YLUP)
+ * Last Window The secret of Cape West (YLUP)
  * El profesor Layton y la Villa Misteriosa (A5FE, A5FP)
  * El profesor Layton y la Caja de Pandora (YLTS)
  * Maple Story DS (YMPK)
@@ -101,7 +101,7 @@ Link to web pages with NDS info:
 ----
 
 ## Compile instructions
-* Windows: run compile.bat
+* Windows: run compile.bat, or use visual studio.
 * Unix: ./compile.sh
 
 ## Screenshots
