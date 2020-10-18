@@ -5,21 +5,20 @@
 <a href="http://www.gnu.org/copyleft/gpl.html"><img alt="license" src="https://img.shields.io/badge/license-GPL%20V3-blue.svg?style=flat" /></a>
 </p>
 
-> Tinke is a program to see, convert, and edit the **files of NDS games**. You can edit a lot of file formats, like images, text, sounds, fonts and textures. Furthermore it works with **plugins** made in NET Framework languages (C# and VB.NET) so it's so easy to support new formats.
+> Tinke is a program to view, convert, and edit the **files of NDS games**. You can edit a lot of file formats, like images, text, sounds, fonts and textures. Furthermore, it works with **plugins** made in .NET Framework languages (C# and VB.NET), so it's so easy to support new formats.
 
 To run the program you must have installed **[.NET Framework 4.5](https://www.microsoft.com/es-es/download/details.aspx?id=30653)** or **[mono](http://www.mono-project.com/download)**. In the case of *mono* on *Linux*, make sure you have installed the package **mono-locale-extras** too. For Mac, you need *mono* and *pkg-config* installed and configured, you'll use *mono32* to exec Tinke.
 
-Thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
+Original thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
 
-**Tinke is now continued by TBNSMB and a few others collaborating to provide an updated version of tinke, which was discontinued by the original author, pleonex.**
+**Tinke has been continued by TBNSMB and a few others, who are collaborating to provide an updated version of tinke, which was discontinued by the original author, pleonex.**
 
 # Features
 
- * Show the ROM header with the banner and edit it.
- * Show and convert to common format a lot of files.
- * Edit a lot of image files from BMP files (NCLR, NCGR, NSCR, NCER), audio files from WAV (SWAV, SWAR, STRM) and fonts (NFTR).
- * Hexadecimal visor.
- * Change the content of the files and save the new ROM.
+ * View the ROM header with the banner and edit it.
+ * View, edit, and convert files to and from a ton of common file formats.
+ * Hexadecimal editor.
+ * Change the contents of the filesystem and save a new, edited ROM.
  * Multilanguage support.
 
 # Supported formats
