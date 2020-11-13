@@ -73,6 +73,7 @@ namespace Tinke
             this.listPlugin = new System.Windows.Forms.ListBox();
             this.linkHexEditor = new System.Windows.Forms.LinkLabel();
             this.label9 = new System.Windows.Forms.Label();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -127,9 +128,9 @@ namespace Tinke
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(255, 81);
+            this.linkLabel1.Location = new System.Drawing.Point(279, 81);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(164, 13);
+            this.linkLabel1.Size = new System.Drawing.Size(192, 13);
             this.linkLabel1.TabIndex = 5;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "http://www.github.com/pleonex/tinke/";
@@ -259,7 +260,7 @@ namespace Tinke
             this.label8.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(46, 348);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(296, 17);
+            this.label8.Size = new System.Drawing.Size(368, 17);
             this.label8.TabIndex = 19;
             this.label8.Text = "ana1is1a   rafael1193   go11um   CUE   MetLob";
             // 
@@ -305,12 +306,23 @@ namespace Tinke
             this.label9.TabIndex = 23;
             this.label9.Text = "Bernhard Elbl";
             // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(263, 94);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(215, 13);
+            this.linkLabel2.TabIndex = 24;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "http://www.github.com/thebestnsmb/tinke/";
+            // 
             // Autores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(788, 374);
+            this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.linkHexEditor);
             this.Controls.Add(this.listPlugin);
@@ -374,6 +386,6 @@ namespace Tinke
         private System.Windows.Forms.ListBox listPlugin;
         private System.Windows.Forms.LinkLabel linkHexEditor;
         private System.Windows.Forms.Label label9;
-
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
