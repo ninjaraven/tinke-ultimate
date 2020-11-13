@@ -23,7 +23,7 @@ Original thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
 
 # Supported formats
 
-## Images
+## Palettes, Tiles, Screens And Images
  * NCLR => Nitro CoLouR(palette)
  * NCGR => Nitro Character Graphic Resource (tiles)
  * NBGR => Nitro Basic Graphic Resource (tiles)
@@ -39,9 +39,9 @@ Original thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
  * NTFP => NiTro File Palette (palette)
  * RAW => Raw image (tiles)
  * MAP => Raw map info (map)
- * Common formats => PNG, JPG, TGA, BMP
+ * Common image formats => PNG, JPG, TGA, BMP
 
-## Textures
+## Textures And Models (Note: Currently having trouble getting the plugin to work again, so this is temporarily not supported by my version.)
  * BTX0 (NSBTX)
  * BMD0 (NSBMD)
 
@@ -59,7 +59,7 @@ Original thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
  * Common formats => TXT, XML, INI, H, BAT, C, MAKEFILE, LUA, LUA.BAK, CSV, BUILDTIME, HTML, CSS, JS, NAIX, DTD, BSF, NBSD
 
 ## Compression
-  Thanks to DSDEcmp library [DSDecmp](http://code.google.com/p/dsdecmp) (credits to *barubary*)
+  Thanks to DSDecmp library [DSDecmp](http://code.google.com/p/dsdecmp) (credits to *barubary*)
  * Huffman (id = 0x20)
  * LZ77    (id = 0x10)
  * LZSS    (id = 0x11)
@@ -68,6 +68,9 @@ Original thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
 ## Pack
  * NARC and ARC => Nintendo ARChives
  * Utility.bin => Wifi data files
+ * FUN => DGamer archive files
+ 
+# Note: Additional formats that are not recognized by the program as openable files, for example plain text files that have an unknown extension, can be opened with the "Open As..." dialog.
 
 # Specific plugin for games
  * 999, nine hours nine persons nine doors (BSKE)
