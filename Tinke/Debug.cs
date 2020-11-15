@@ -59,7 +59,7 @@ namespace Tinke
 
         public void Add_Text(string mensaje)
         {
-            if (Type.GetType ("Mono.Runtime") == null) // Mono give problems with the ie control
+            if (Type.GetType ("Mono.Runtime") == null) // Mono gives problems with the ie control
             {
                 if (mensaje != "")
                     txtInfo.Document.Write ("<p style=\"font-size:x-small;\">" + mensaje + "</p>");
