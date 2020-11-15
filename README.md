@@ -11,7 +11,7 @@ To run the program you must have installed **[.NET Framework 4.5](https://www.mi
 
 Original thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
 
-**Tinke has been continued by TBNSMB and a few others, who are collaborating to provide an updated version of tinke, which was discontinued by the original author, pleonex.**
+**Tinke has been continued by TBNSMB, who are collaborating to provide an updated version of tinke, which was discontinued by the original author, pleonex.**
 
 # Features
 
