@@ -41,7 +41,7 @@ Original thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
  * MAP => Raw map info (map)
  * Common image formats => PNG, JPG, TGA, BMP
 
-## Textures And Models (Note: Currently having trouble getting the plugin to work again, so this is temporarily not supported by my version.)
+## Textures And Models
  * BTX0 (NSBTX)
  * BMD0 (NSBMD)
 
@@ -70,27 +70,34 @@ Original thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
  * Utility.bin => Wifi data files
  * FUN => DGamer archive files
  
-# Note: Additional formats that are not recognized by the program as openable files, for example plain text files that have an unknown extension, can be opened with the "Open As..." dialog.
+# Note: Additional formats that are not currently recognized by the program as openable files, for example, plain text files that have an unknown extension, can be opened with the "Open As..." dialog.
 
 # Specific plugin for games
- * 999, nine hours nine persons nine doors (BSKE)
+ * 999: Nine Hours, Nine Persons, Nine Doors (BSKE)
  * Itsu Demo Doko Demo Dekiru Igo (AIIJ)
  * Blood of Bahamut (CYJJ)
  * Dragon Ball Kai Ultimate Butouden (TDBJ)
- * Ace Attorney Investigations Miles Edgeworth (C32P, C32J)
+ * Ace Attorney Investigations: Miles Edgeworth (C32P, C32J)
  * Gyakuten Kenji 2 (BXOJ)
  * Kirby Squeak Squad (AKWE)
- * Last Window The secret of Cape West (YLUP)
- * El profesor Layton y la Villa Misteriosa (A5FE, A5FP)
- * El profesor Layton y la Caja de Pandora (YLTS)
+ * Last Window: The Secret Of Cape West (YLUP)
+ * Professor Layton and the Mysterious Village (A5FE, A5FP)
+ * Professor Layton and Pandora's Box (YLTS)
  * Maple Story DS (YMPK)
  * Ninokuni Shikkoku no Madoushi (B2KJ)
  * Rune Factory 3 (BRFE, BRFJ)
- * The world end with you (AWLJ)
+ * The World Ends With You (AWLJ)
  * Tetris DS (YLUP)
  * Tokimeki Memorial Girl's Side 3rd Story (B3SJ)
  * Cake Mania 2 (CAKX)
  * Jump! Ultimate Stars (ALAR, DSIG, DSCP)
+ * Time Ace (AE3E)
+ * Sonic Rush Adventure (A3YE)
+ * Inazuma Eleven
+ * Tales Of The Tempest
+ * A Witch's Tale
+ * Death Note: Kira Game
+ * Gakuen Hetalia DS
 
 ----
 
