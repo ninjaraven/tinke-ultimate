@@ -112,6 +112,7 @@ Link to web pages with NDS info:
 ## Compile instructions
 * Windows: run compile.bat, or use visual studio.
 * Unix: ./compile.sh
+* Or alternatively just run the precompiled assemblies in Tinke/Bin/Debug or Tinke/Bin/Release
 
 ## Screenshots
 ![Tinke 0.8.1](https://lh5.googleusercontent.com/-GRKvfv-TAaI/ToBy1_eFrfI/AAAAAAAAASA/9WDkc_OQPC4/s800/Tinke%2525200.8.1.PNG)
