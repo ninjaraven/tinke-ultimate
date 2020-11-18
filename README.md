@@ -11,7 +11,7 @@ To run the program you must have installed **[.NET Framework 4.5](https://www.mi
 
 Original thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
 
-**Tinke has been continued by TBNSMB, who are collaborating to provide an updated version of tinke, which was discontinued by the original author, pleonex.**
+**Tinke has been continued by TBNSMB, who is working on providing an updated version of tinke, which was discontinued by the original author, pleonex.**
 
 # Features
 
@@ -110,7 +110,7 @@ Link to web pages with NDS info:
 ----
 
 ## Compile instructions
-* Windows: run compile.bat, or use visual studio.
+* Windows: "run compile.bat" (doesn't work but whatever just use the second method), or use visual studio.
 * Unix: ./compile.sh
 * Or alternatively just run the precompiled assemblies in Tinke/Bin/Debug or Tinke/Bin/Release
 
