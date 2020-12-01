@@ -49,6 +49,8 @@ namespace TIMEACE
         {
             if (gameCode == "AE3E")
                 return true;
+            else if (gameCode == "C2BE")
+                return true;
 
             return false;
         }
