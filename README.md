@@ -96,7 +96,7 @@ https://github.com/chyyran/tinke
  * Tokimeki Memorial Girl's Side 3rd Story (B3SJ)
  * Cake Mania 2 (CAKX)
  * Jump! Ultimate Stars (ALAR, DSIG, DSCP)
- * Time Ace (AE3E)
+ * Time Ace (AE3E) (Also works for Powerbike (C2BE))
  * Sonic Rush Adventure (A3YE)
  * Inazuma Eleven
  * Tales Of The Tempest
