@@ -10,6 +10,10 @@
 To run the program you must have installed **[.NET Framework 4.5](https://www.microsoft.com/es-es/download/details.aspx?id=30653)** or **[mono](http://www.mono-project.com/download)**. In the case of *mono* on *Linux*, make sure you have installed the package **mono-locale-extras** too. For Mac, you need *mono* and *pkg-config* installed and configured, you'll use *mono32* to exec Tinke.
 
 Original thread at GBAtemp.net: http://gbatemp.net/topic/303529-tinke-072/
+Some other forks that may be worth checking out:
+https://github.com/MightyBirdy/tinke
+https://github.com/MetLob/tinke
+https://github.com/chyyran/tinke
 
 **Tinke has been continued by TBNSMB, who is working on providing an updated version of tinke, which was discontinued by the original author, pleonex.**
 
