@@ -89,6 +89,11 @@ namespace TIMEACE
                 return Format.Text;
             }
 
+            if (file.name.EndsWith(".emit"))
+            {
+                return Format.Text;
+            }
+
             return Format.Unknown;
         }
 
