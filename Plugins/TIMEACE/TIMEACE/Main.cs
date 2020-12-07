@@ -99,7 +99,7 @@ namespace TIMEACE
 
         private bool IsImage(int id)
         {
-            if ((gameCode == "AE3E" && id >= 0x0BE && id <= 0x10B || id >= 0x10C && id <= 0x1B1))
+            if (gameCode == "AE3E" && id >= 0x0BE && id <= 0x10B && id >= 0x10C && id <= 0x1B1)
                 return true;
             else if (gameCode == "C2BE" && id >= 0x3A && id <= 0x82)
                 return true;
