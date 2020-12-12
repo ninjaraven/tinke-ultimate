@@ -267,7 +267,7 @@ namespace Tinke
         private sFolder Add_SystemFiles(Nitro.Estructuras.sFAT[] fatTable)
         {
             sFolder ftc = new sFolder();
-            ftc.name = "System Files";
+            ftc.name = "ftc";
             ftc.id = (ushort)accion.LastFolderID;
             accion.LastFolderID++;
             ftc.files = new List<sFile>();
