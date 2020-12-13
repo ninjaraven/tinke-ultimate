@@ -1,8 +1,0 @@
-// bridgeKill03
-
-Position=19080,-7,-7710
-BoundingBoxSize=70,30,15
-DestroyOnEnter=false
-active=true
-OnEnterScript=_anihilate_player
-#OnLeaveScript=bridge_spawn_off
