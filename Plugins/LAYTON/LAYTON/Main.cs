@@ -43,8 +43,8 @@ namespace LAYTON
         public bool IsCompatible()
         {
             var testedGames = new[] { "A5FP", "A5FE",
-                "YLTS", "YLTE", "YLTP", "YLTH",
-                "BLFE", "C2AJ", "YLTJ"};
+                "YLTS", "YLTE", "YLTP", "YLTH", "YLTJ",
+                "BLFE", "C2AJ"};
             return testedGames.Contains(gameCode);
         }
         public Format Get_Format(sFile file, byte[] magic)
