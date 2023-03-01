@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0C21698B-0FC4-48E8-90FD-0DA70BFE9BB8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tinke</RootNamespace>
+    <AssemblyName>Tinke</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>Tinke.Program</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <StartAction>Project</StartAction>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>True</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>Full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <StartAction>Project</StartAction>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <StartAction>Project</StartAction>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>nintendo-ds.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acciones.cs" />
+    <Compile Include="Autores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autores.Designer.cs">
+      <DependentUpon>Autores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Debug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Debug.Designer.cs">
+      <DependentUpon>Debug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\CallPlugin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\CallPlugin.Designer.cs">
+      <DependentUpon>CallPlugin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\FATExtract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FATExtract.Designer.cs">
+      <DependentUpon>FATExtract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\SelectFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\SelectFile.Designer.cs">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\SelectModeColor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\SelectModeColor.Designer.cs">
+      <DependentUpon>SelectModeColor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\SelectOffset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\SelectOffset.Designer.cs">
+      <DependentUpon>SelectOffset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditRomInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditRomInfo.Designer.cs">
+      <DependentUpon>EditRomInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Espera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Espera.Designer.cs">
+      <DependentUpon>Espera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\MapOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\MapOptions.Designer.cs">
+      <DependentUpon>MapOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RomInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RomInfo.Designer.cs">
+      <DependentUpon>RomInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema.Designer.cs">
+      <DependentUpon>Sistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PluginHost.cs" />
+    <Compile Include="Nitro\Estructuras.cs" />
+    <Compile Include="Nitro\FAT.cs" />
+    <Compile Include="Nitro\FNT.cs" />
+    <Compile Include="Nitro\NDS.cs" />
+    <Compile Include="Nitro\Overlay.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\Helper.cs" />
+    <Compile Include="Visor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visor.Designer.cs">
+      <DependentUpon>Visor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisorHex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisorHex.Designer.cs">
+      <DependentUpon>VisorHex.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Autores.resx">
+      <DependentUpon>Autores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Debug.resx">
+      <DependentUpon>Debug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\CallPlugin.resx">
+      <DependentUpon>CallPlugin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\FATExtract.resx">
+      <DependentUpon>FATExtract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\SelectFile.resx">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\SelectModeColor.resx">
+      <DependentUpon>SelectModeColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\SelectOffset.resx">
+      <DependentUpon>SelectOffset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditRomInfo.resx">
+      <DependentUpon>EditRomInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Espera.resx">
+      <DependentUpon>Espera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\MapOptions.resx">
+      <DependentUpon>MapOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RomInfo.resx">
+      <DependentUpon>RomInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema.resx">
+      <DependentUpon>Sistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Visor.resx">
+      <DependentUpon>Visor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisorHex.resx">
+      <DependentUpon>VisorHex.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="VisorHexBasic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisorHexBasic.Designer.cs">
+      <DependentUpon>VisorHexBasic.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="VisorHexBasic.resx">
+      <DependentUpon>VisorHexBasic.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Be.Windows.Forms.HexBox\Be.Windows.Forms.HexBox.csproj">
+      <Project>{26C5F25F-B450-4CAF-AD8B-B8D11AE73457}</Project>
+      <Name>Be.Windows.Forms.HexBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\DSDecmp\DSDecmp\DSDecmp.csproj">
+      <Project>{E6F419F9-D6B5-4BE7-99BB-97C48C927FF3}</Project>
+      <Name>DSDecmp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ekona\Ekona.csproj">
+      <Project>{736010D3-F72F-4C56-B8D2-2EDD1B8F3A87}</Project>
+      <Name>Ekona</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="langs\en-us.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="langs\en-us.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="langs\es-es.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="langs\es-es.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="langs\fr-fr.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="langs\fr-fr.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="langs\it-it.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="langs\it-it.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nintendo-ds.ico" />
+    <Content Include="Nitro\MakerCodes.txt" />
+    <None Include="Resources\compress.png" />
+    <None Include="Resources\picture_edit.png" />
+    <None Include="Resources\image_edit.png" />
+    <None Include="Resources\pencil.png" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\accept.png" />
+    <None Include="Resources\picture_go.png" />
+    <None Include="Resources\page_white_text.png" />
+    <None Include="Resources\splash1080pc20111.png" />
+    <None Include="Resources\package.png" />
+    <None Include="Resources\picture_save.png" />
+    <None Include="Resources\zoom.png" />
+    <None Include="Resources\calculator.png" />
+    <None Include="Resources\disk.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
