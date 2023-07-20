@@ -34,13 +34,11 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DSDecmp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\build\DSDecmp.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="DSDecmp">
+      <HintPath>..\..\..\Tinke\bin\Debug\DSDecmp.dll</HintPath>
     </Reference>
     <Reference Include="Ekona">
-      <HintPath>..\..\..\build\Ekona.dll</HintPath>
+      <HintPath>..\..\..\Tinke\bin\Debug\Ekona.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

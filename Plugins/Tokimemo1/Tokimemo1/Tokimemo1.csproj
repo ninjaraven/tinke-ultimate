@@ -43,7 +43,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ekona">
-      <HintPath>..\..\..\Ekona\bin\Debug\Ekona.dll</HintPath>
+      <HintPath>..\..\..\Tinke\bin\Debug\Ekona.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">

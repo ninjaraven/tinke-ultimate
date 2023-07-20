@@ -98,6 +98,12 @@ ipch/
 *.vsp
 *.vspx
 
+# Other VS Stuff
+*.vsidx
+*.dat
+*.lock
+
+
 # Guidance Automation Toolkit
 *.gpState
 
