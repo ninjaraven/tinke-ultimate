@@ -102,7 +102,6 @@ ipch/
 *.vsidx
 *.dat
 *.lock
-.vs
 
 
 # Guidance Automation Toolkit
